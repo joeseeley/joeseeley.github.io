@@ -1,0 +1,65 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v2.json",
+  "description": "A simple bar chart with embedded data.",
+  "width": 500,
+  "height": 500,
+  "autosize": "fit",
+  "mark": "bar",
+  "encoding": {
+    "x": {
+      "field": "skill",
+      "type": "nominal"
+    },
+    "y": {
+      "field": "interest",
+      "type": "quantitative"
+    }
+  },
+  "data": {
+    "values": [
+{"skill":"Object Oriented Prog", "interest":1},
+{"skill":"Front End Developmen", "interest":1},
+{"skill":"Back End Development", "interest":1},
+{"skill":"Full Stack Developme", "interest":1},
+{"skill":"Application Design", "interest":0},
+{"skill":"JavaScript Framework", "interest":1},
+{"skill":"Change Agent", "interest":1},
+{"skill":"Reporting", "interest":0},
+{"skill":"Time Management", "interest":0},
+{"skill":"Self-Motivated Learn", "interest":0},
+{"skill":"Critical Thinking & ", "interest":0},
+{"skill":"Analysis", "interest":0},
+{"skill":"Influence", "interest":0},
+{"skill":"SQL Design & Optimiz", "interest":0},
+{"skill":"Shell Scripting & Pr", "interest":0},
+{"skill":"MS SQL", "interest":0},
+{"skill":"SQL Server Integrati", "interest":0},
+{"skill":"SQL Server Reporting", "interest":0},
+{"skill":"ETL Processing", "interest":0},
+{"skill":"Ruby on Rails", "interest":1},
+{"skill":"MS SQL Server", "interest":0},
+{"skill":"REST", "interest":1},
+{"skill":"XML", "interest":0},
+{"skill":"JSON", "interest":0},
+{"skill":"SQL (T-SQL, PL\/SQL)", "interest":0},
+{"skill":"SQL (T-SQL, PL\/SQL)", "interest":0},
+{"skill":"Ruby", "interest":1},
+{"skill":"Accessibility", "interest":1},
+{"skill":"JavaScript", "interest":1},
+{"skill":"jQuery", "interest":0},
+{"skill":"HTML", "interest":0},
+{"skill":"Agile Methodologies", "interest":0},
+{"skill":"Test Driven Developm", "interest":0},
+{"skill":"Object-relational Ma", "interest":0},
+{"skill":"Bitbucket\/Git", "interest":0},
+{"skill":"DBVisualizer", "interest":0},
+{"skill":"JavaScript\/TypeScrip", "interest":1},
+{"skill":"MVC Frameworks", "interest":1},
+{"skill":"Testing Frameworks", "interest":0},
+{"skill":"Caching", "interest":0},
+{"skill":"Application Integrat", "interest":0},
+{"skill":"API and Web Services", "interest":0},
+{"skill":"Web Services Consume", "interest":0}
+    ]
+  }
+}

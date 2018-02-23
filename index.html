@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<head>
+  <title>Vega Lite Bar Chart</title>
+  <meta charset="utf-8">
+
+  <script src="https://cdn.jsdelivr.net/npm/vega@3.0.10/build/vega.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@2.1.3/build/vega-lite.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@3.0.0/build/vega-embed.js"></script>
+
+  <style media="screen">
+    /* Add space between Vega-Embed links  */
+    .vega-actions a {
+      margin-right: 5px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Highly Skilled Contrasted With Interest</h1>
+  <!-- Container for the visualization -->
+  <div id="vis"></div>
+
+  <script>
+  // Assign the specification to a local variable vlSpec.
+  var vlSpec = "./interested.json";
+//  var vlSpec = {
+//    "$schema": "https://vega.github.io/schema/vega-lite/v2.json",
+//    "data": {
+//      "values": [
+//        {"skill": "jQuery", "interest": 0},
+//        {"skill": "Ruby", "interest": 1},
+//      ]
+//    },
+//    "mark": "bar",
+//    "encoding": {
+//      "x": {
+//        "field": "skill",
+//        "type": "nominal"
+//      },
+//      "y": {
+//        "field": "interest",
+//        "type": "quantitative"
+//      }
+//    }
+//  };
+
+  // Embed the visualization in the container with id `vis`
+  vegaEmbed("#vis", vlSpec);
+  </script>
+</body>
+</html>
